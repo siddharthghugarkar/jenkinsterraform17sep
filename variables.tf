@@ -20,13 +20,13 @@ variable "aws_region" {
 variable "ami" {
    type        = string
    description = "AmazonLinux AMI ID"
-   default     = "ami-01b6d88af12965bb6"
+   default     = "ami-0533167fcff018a86"
 }
 
 variable "instance_type" {
    type        = string
    description = "Instance type"
-   default     = "t2.micro"
+   default     = "t3.micro"
 }
 
 variable "name_tag" {
